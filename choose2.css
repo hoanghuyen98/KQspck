@@ -1,0 +1,99 @@
+/* Dòng 1 */
+#line1 {
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    
+    
+    
+}
+#div-social{
+    margin-right: 20px;
+}
+.fab:hover{
+    transform: scale(1.1);
+}
+.fa-facebook{
+    font-size: 65px;
+    margin-top: 40px;
+    margin-right: 15px;
+    color: #4267b2;
+}
+.fa-twitter{
+    font-size: 65px;
+    margin-top: 40px;
+    margin-right: 15px;
+    color: #1DA1F2;
+}
+.fa-snapchat{
+    font-size: 65px;
+    margin-top: 40px;
+    margin-right: 15px;
+    color: #FFFC00;
+}
+
+#picture1 {
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 130px;
+    width: 150px;
+}
+#picture1:hover{
+    transform: rotate(10deg);
+    
+}
+
+.header {
+    font-size: 27px;
+    margin-top: 50px;
+}
+.header:hover{
+    transform: scale(1.1);}
+
+/* menu */
+.menu {
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* food */
+.list-img2 {
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* Contact us */
+#ctu {
+    margin-top: 100px;
+    background-image: url("bg-6.jpg");
+    height: 300px;
+    width: 100%;
+    border: 1px solid wheat;
+}
+
+#ct {
+    font-family: 'Bitter', serif;
+    color: whitesmoke;
+    font-size: 19px;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.ctif {
+    font-size: 15px;
+    color: gainsboro;
+    margin-left: 135px;
+    margin-top: 11px;
+}
+
+
+
+

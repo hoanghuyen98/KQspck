@@ -1,0 +1,341 @@
+/* Dòng 1 */
+#line1 {
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    
+    
+    
+}
+#div-social{
+    margin-right: 20px;
+}
+.fab:hover{
+    transform: scale(1.1);
+}
+.fa-facebook{
+    font-size: 65px;
+    margin-top: 40px;
+    margin-right: 15px;
+    color: #4267b2;
+}
+.fa-twitter{
+    font-size: 65px;
+    margin-top: 40px;
+    margin-right: 15px;
+    color: #1DA1F2;
+}
+.fa-snapchat{
+    font-size: 65px;
+    margin-top: 40px;
+    margin-right: 15px;
+    color: #FFFC00;
+}
+
+#picture1 {
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 130px;
+    width: 150px;
+}
+#picture1:hover{
+    transform: rotate(10deg);
+    
+}
+
+.header {
+    font-size: 27px;
+    margin-top: 50px;
+}
+.header:hover{
+    transform: scale(1.1);}
+
+/* Welcome! */
+
+#wtor {
+    font-size: 80px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px #0e0e0e;
+}
+
+.fa-search{
+    width: 20px;
+    height: 20px;
+    color: darkgrey;
+    
+}
+
+/* Dòng 2 */
+.container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.special {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+.specialfood {
+    font-size: 30px;
+    color: burlywood;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* Why is Asian food */
+#line3 {
+    border-bottom: inset darkgray  ;
+    display: flex;
+    justify-content: space-around;
+}
+
+#picture3 {
+    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-right: 70px;
+    height: 330px;
+    width: 500px;
+    border-radius: 7px;
+}
+
+#wiaf {
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+    margin-left: 90px;
+}
+
+#passagewiaf {
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Why is European Food */
+#line4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#picture4 {
+    margin-top: 15px;
+    margin-left: 70px;
+    height: 330px;
+    width: 500px;
+    border-radius: 7px;
+}
+
+#wief {
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+    margin-right:45px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#passagewief {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 100px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+
+}  
+
+#myCarousel{
+    overflow: hidden;
+}
+
+
+.carousel-inner{
+    border-radius: 20px;
+    object-fit: contain;
+    height: 600px;
+}
+
+
+#search-bar{
+    margin-top: 50px;
+    margin-left: 370px;
+}
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 52%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    background: rgba(7, 8, 8, 0.788);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #040505;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* button carousel */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);}
+
+
+/* shadow-box */
+
+.shadow-box{
+    padding: 10px; 
+    margin-top: 50px;
+    width: 48%;
+    margin-left: 100px;
+    border-radius:15px 50px;
+    background-color: rgb(250, 248, 162);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+.shadow-box-1{
+    padding: 10px; 
+    margin-top: 50px;
+    width: 48%;
+    margin-left: 600px;
+    border-radius:50px 15px;
+    background-color: rgb(250, 248, 162);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+/* Comments */
+    .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: lightsalmon;  
+        border-radius: 20px;
+        margin: auto;
+    }
+
+    #div-comment{
+        background-color: lightsalmon;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto; 
+        border-radius: 20px;
+        margin: auto;
+       
+    }
+
+    .div2{
+        margin:auto;
+        border-radius: 20px;
+    }
+ 
+    .flex-container > div {
+        margin: 20px;
+        background-color: #3f2828;
+        margin: 10px;
+        padding: 20px;
+        height: 300px;
+        width: 200px;
+        border-radius:10px;
+    }
+    
+    .p-name{
+        color: rgb(192, 177, 186);
+        font-size: 120%;
+        font-family: 'Lobster', cursive;
+    }
+    .font-type{
+        font-style: italic;
+        font-weight: bold;
+    }    
+
+    #comment {
+        font-size: 65px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 85px;
+        margin-bottom: 30px;
+        font-family: 'Lobster', cursive;
+        background-color: blanchedalmond;
+        width: 80%;
+        border-radius: 10px;
+    }
+
+/* Contact us */
+    #ctu {
+        margin-top: 100px;
+        background-image: url("bg-6.jpg");
+        height: 300px;
+        width: 100%;
+        border: 1px solid wheat;
+    }
+
+    #ct {
+        font-family: 'Bitter', serif;
+        color: whitesmoke;
+        font-size: 19px;
+        margin-left: 120px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .ctif {
+        font-size: 15px;
+        color: gainsboro;
+        margin-left: 135px;
+        margin-top: 11px;
+    }
+    
+
+   

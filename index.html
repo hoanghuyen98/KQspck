@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KQ's spck</title>
+    <link rel="stylesheet" href="spck.css">
+    <script src="https://kit.fontawesome.com/0ad8d8d74f.js"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Dòng 1 -->
+    <div id="line1">
+      <img id="picture1"src="picture1.png" alt="This is a symbol">
+      <b class="header" onclick="choose1()">ASIAN FOOD</b>
+      <b class="header" onclick="choose2()">EUROPEAN FOOD</b>
+      <div id="div-social">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-snapchat"></i>
+      </div>
+    </div>
+
+    <center>
+    <!-- Welcome -->
+    <div id="wtor">Welcome to K&Q restaurant !</div>
+      <br>
+      <br>
+    <!-- Search bar -->
+    <div>
+        <div class="example">
+            <input id="search" style="display: inline-block" class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+            name="search" aria-label="Search">
+            <button id="btns" type="submit" style="display: inline-block; font-size: 18px"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+    </center>
+
+
+    <!-- Dòng 2 -->
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+      
+            <div class="item active">
+              <img onclick="SF1()" src="key1.jpg" alt="Pepper Steak" style="width:100%; height: 600px;">
+              <div class="carousel-caption">
+                <h3 class="special">Special Today!</h3>
+                <p class="specialfood">Pepper Steak</p>
+              </div>
+            </div>
+      
+            <div class="item">
+              <img onclick="SF2()" src="key2.jpg" alt="Big Star Burger" style="width:100%; height: 600px;">
+              <div class="carousel-caption">
+                <h3 class="special">Special Today!</h3>
+                <p class="specialfood">Big Star Burger</p>
+              </div>
+            </div>
+          
+            <div class="item">
+              <img onclick="SF3()" src="key3.jpg" alt="Grilled Chicken Wonton Tacos" style="width:100%; height: 600px;">
+              <div class="carousel-caption">
+                <h3 class="special">Special Today!</h3>
+                <p class="specialfood">Grilled Chicken Wonton Tacos</p>
+              </div>
+            </div>
+        
+          </div>
+      
+          <!-- Left and right controls -->
+        
+        <a class="prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      
+    </div>
+        </div>
+    </div>
+
+    <!-- Dòng 3 -->
+    <div class="shadow-box"> 
+       <p id="wiaf">Why is Asian food?</p>
+    </div>
+    
+    <div id="line3">
+      <p id="passagewiaf">Asian food is notorious for ruining every good and easy in your life.
+         After one bite, you’ll soon realise that all other dishes are bland and stodgy
+         in comparison, and you'll have to hunt and gather for ace Asian for the
+         rest of your days.
+         Asian food is the best food out of all nations. It’s quite a statement,
+         but it’s one that I stand by! Sure, I might be a touch biased since I am half Asian
+         , but I prefer to call myself ‘well-educated’ instead of biased.
+      </p>
+      <img id="picture3" src="http://www.icalepcs2015.org/wp-content/uploads/2017/08/Asian-food-800x530.jpeg" alt="This an an image">
+    </div>
+
+    <!-- Dòng 4 -->
+    <div class="shadow-box-1">
+        <p id="wief">Why is European food?</p>
+    </div>
+
+    <div id="line4">
+      <img id="picture4" src="https://media-cdn.tripadvisor.com/media/photo-s/12/71/07/c1/a-seafood-feast.jpg" alt="This is an image">
+      <p id="passagewief">While the concept of food is consistent, the ingredients, quality,
+         availability and expectations are often a large part of what makes a culture
+         distinct. Take Italian cuisine, when you step into a restaurant in Italy you can
+         order a simple plate of spaghetti, and despite a small number of simple
+         ingredients, the meal can be loaded with flavour. The incomparable quality
+         in just a few ingredients can effortlessly transform a typical plate of
+         spaghetti into a flavour loaded meal. It’s the ripe tomatoes that are perfectly
+         portioned in sweetness and acidity that make the watery produce common to North
+         American vegetables seem like an epidemic.
+      </p>
+    </div>
+
+    <!-- Comments -->
+    <div id = "comment">Top Comments</div>
+    <div id="div-comment">
+        <div class="flex-container p-name">
+          <div> <p class="p-name font-type">Ken from US</p> 
+          Great food and service, would highly recommend.Went there on mothering Sunday.Everything perfect,such friendly staff.
+          </div>
+          <div> <p class="p-name font-type">John form UK</p>
+            This is the original and authentic Asian restaurant I would like to say original flavour of food service is five star.</div>
+          <div> <p class="p-name font-type">Minh from Viet Nam</p>
+            Been coming here since it first opened and have never had any complaints.The food is fantastic and the staff are always friendly and helpful.</div>  
+        </div>
+
+        <div class="flex-container div2 p-name ">
+          <div> <p class="p-name font-type">Jane from Germany</p>
+              Helpful service and prompt takeaway servings at this restaurant. Well cooked and flavoursome curries with good fresh ingredients.</div>
+          <div> <p class="p-name font-type">Xiang Hao from China</p>
+              Lovely restaurant with attentive staff, great menu choice and good value for money. We've been going here for years and it never lets us down.</div>
+          <div> <p class="p-name font-type">Yi Yeon from Korean</p>
+              Me and my family have been coming to this restaurant for years now, and they give impeccable service! Best sauces of all Indian restaurants in this area!</div>  
+        </div>
+    </div>
+  
+    
+    <!-- Contact us -->
+    <div id="ctu">
+        <p id="ct">*CONTACT INFO</p>
+        <p class="ctif">Address: Tầng 5 71 Nguyễn Chí Thanh, Hà Nội </p>
+        <p class="ctif">Phone: 0984146006</p>
+        <p class="ctif">Mail: khoi2109@gmail.com</p>
+        <p class="ctif">Facebook: https://www.facebook.com/spck</p>
+    </div>
+
+    <script src="spck.js"></script>
+
+    <script src="show_data1.js"></script>
+    <script src="data1.js"></script>
+    <script src="getdata1.js"></script>
+
+    <script src="show_data2.js"></script>
+    <script src="data2.js"></script>
+    <script src="getdata2.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+</body>
+</html>

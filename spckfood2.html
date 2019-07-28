@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food1</title>
+    <link rel="stylesheet" href="spckfood2.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Dòng 1 -->
+    <div id="line1">
+        <img onclick="home()" id="picture1"src="https://images-na.ssl-images-amazon.com/images/I/519hW3mdkYL._SX425_.jpg" alt="This is a symbol">
+        <b class="header" onclick="choose1()">ASIAN FOOD</b>
+        <b class="header" onclick="choose2()">EUROPEAN FOOD</b>
+        <img id="picture2" src="data:image/png;base64,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" alt="This is an image">
+    </div>
+
+    <!-- Dòng 2 -->
+    <center>
+        <div>
+            <h4 id="bsb2"></h4>
+            <img id="picture32" src="" alt="">
+        </div>
+    </center>
+
+
+    <!-- Dòng 3 -->
+    <div>
+        <b class="ingredients">Ingredients</b>
+        <div id="ingredients-bsb">
+            <li>1 Cup pancake mix, preferably Krusteaz Buttermilk Pancake Mix</li>
+            <li>1 Cup apple juice or apple cider</li>
+            <li>1/2 Teaspoon cinnamon</li>
+        </div>
+
+        <b class="preparation">Preparation</b>
+        <div id="preparation-bsb">
+            <p>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <p>2. Nunc risus nisi, mollis sit amet nibh sed, imperdiet malesuada mauris</p>
+            <p>3. Fusce consequat sit amet dui ac ultricies. </p>
+        </div>
+    </div>
+
+    <!-- Contact us -->
+    <div id="ctu">
+        <p id="ct">*CONTACT INFO</p>
+        <p class="ctif">Address: Tầng 5 71 Nguyễn Chí Thanh, Hà Nội </p>
+        <p class="ctif">Phone: 0984146006</p>
+        <p class="ctif">Mail: khoi2109@gmail.com</p>
+        <p class="ctif">Facebook: https://www.facebook.com/spck</p>
+    </div>
+
+    <script src="spck.js"></script>
+
+    <script src="show_data1.js"></script>
+
+    <script src="show_data2.js"></script>
+    <script src="data2.js"></script>
+    <script src="getdata2.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
